@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Tajawal:wght@300&display=swap');
+  @media (max-width: 100px) {
+    p {
+    font-size: 10px;
+  }
+  }
+
+  header {
+    background-color: #523249;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  }
+  #title {
+    color: #D9CFBF;
+  }
+  img {
+    display: flex;
+    margin: 30px;
+  }
+  a {
+    color: #CBD4C2;
+  }
+  a:hover {
+  color: #C3B299;
+}
+  #who-we-are {
+    background:#D9CFBF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  #form-title {
+    background: #B78F91;
+  }
+  form {
+    background: #B78F91;
+  }
+  #product {
+    background: #523249;
+    color: #D9CFBF;
+    font-family: 'Indie Flower', cursive;
+  }
+</style>
+
+<header id="header">
+  <h1 id="title"> Witches Who Stitch
+  </h1>
+  <div class="logo">
+    <img id="header-img" src="https://live.staticflickr.com/65535/51403407180_63fd69d5f6_t.jpg" 
+         alt= "logo named witches who stitch, with needles and a broom"
+    </img>
+  </div>
+  <nav id="nav-bar">
+    <ul>
+      <li> <a class="nav-link" href="#who-we-are">Who We Are</a> </li>
+      <li> <a class="nav-link" href="#product">Sample Products</a> </li>
+      <li> <a class="nav-link" href="#form">Subscribe to our Updates</a> </li>
+    </ul>
+</header>
+  <br><br><br><br><br><br><br><br><br>
+  <main>
+    <p id= "who-we-are"> Meet Witches Who Stitch! We are a team of two, working to bring a bit of magic to the every day mundane. As we are both moms, we are well acquainted with daily living and chores that seem to blur into a draining passing of time. We wanted to add inspiration, love, and magic back into our routines. We hope the things we craft and share do the same for your daily life!
+    </p>
+    <iframe id="video" width="420" height="315"
+src="https://www.youtube.com/embed/dWF4ZJBjd0w">
+</iframe>
+     <h1 id=product>
+    Here is a sneak peek at some of our products!
+       <p id="product-img" <a data-flickr-embed="true" href="https://www.flickr.com/photos/193798015@N06/51403900526/in/dateposted-public/" title="Ace of Cups"><img src="https://live.staticflickr.com/65535/51403900526_160a8b9b0b_n.jpg" width="240" height="320" alt="Ace of Cups"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+       </p>
+</h1>
+    <h1 id= "form-title"> Subscribe to our mailing list!</h1>
+<p id="description">Thank you for showing an interest in our business.</p>
+</form>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email" id="email" type="email"
+        placeholder="Enter your email address"
+        required>
+      </input>
+      <input id="submit" type="submit" value="Subscribe" class="btn"></input>
+    </form>
+</main>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
